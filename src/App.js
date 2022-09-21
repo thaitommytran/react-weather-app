@@ -14,19 +14,22 @@ function App() {
           <div className="temp">
             <h1>60°F</h1>
           </div>
-          <div className="descripton">
+          <div className="description">
             <p>Clouds</p>
           </div>
         </div>
         <div className="bottom">
           <div className="feels">
-            <p>65°F</p>
+            <p className="bold">65°F</p>
+            <p>Feels Like</p>
           </div>
           <div className="humidity">
-            <p>20%</p>
+            <p className="bold">20%</p>
+            <p>Humidity</p>
           </div>
           <div className="wind">
-            12 MPH
+            <p className="bold">12 MPH</p>
+            <p>Wind Speed</p>
           </div>
         </div>
       </div>
